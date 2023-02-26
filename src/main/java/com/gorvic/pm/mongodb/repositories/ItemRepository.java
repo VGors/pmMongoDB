@@ -1,6 +1,6 @@
-package com.gorvic.pm.mongodb.repository;
+package com.gorvic.pm.mongodb.repositories;
 
-import com.gorvic.pm.mongodb.model.GroceryItem;
+import com.gorvic.pm.mongodb.models.GroceryItem;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 

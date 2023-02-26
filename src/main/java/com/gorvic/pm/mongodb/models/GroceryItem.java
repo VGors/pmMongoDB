@@ -1,4 +1,4 @@
-package com.gorvic.pm.mongodb.model;
+package com.gorvic.pm.mongodb.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -11,9 +11,9 @@ public class GroceryItem {
     private int quantity;
     private String category;
 
-    public GroceryItem(String id, String name, int quantity, String category) {
+    public GroceryItem( String name, int quantity, String category) {
         super();
-        this.id = id;
+//        this.id = id;
         this.name = name;
         this.quantity = quantity;
         this.category = category;
