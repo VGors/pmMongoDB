@@ -1,5 +1,5 @@
 angular.module('app', []).controller('indexController', function ($scope, $http) {
-    const contextPath = 'http://localhost:8189/summer/api/v1';
+    const contextPath = 'http://localhost:8189/pass_codex';
 
     $scope.loadPage = function (pageIndex = 1) {
         $http({
